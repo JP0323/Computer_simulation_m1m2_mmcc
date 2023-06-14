@@ -1,2 +1,3 @@
 # Computer_simulation_m1m2_mmcc
-Implementation a simulation program for a wireless cell that is modeled by an M/M/C/C queueing system with C=16. The call duration (service time) follows an exponential distribution with the average 100 seconds. 
+1. Implementation of a simulation program for a wireless cell that is modeled by an M/M/C/C queueing system with C=16. The call duration (service time) follows an exponential distribution with the average 100 seconds. 
+2. Implementation of a simulation program for a wireless cell with handover. The cell is modeled by an M1+M2/M/C/C queueing system where M1 and M2 model the arrival process of new calls and handover calls, respectively. C=16 and the threshold is set to 2 (if the number of free channels is larger than the threshold, a new call is accepted, otherwise it is blocked). The exponentially distributed call duration has the average 100 seconds.
